@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+@import "tailwindcss";
+
+@theme{
+  --font-google: "Google Sans", sans-serif;
+}
+
+
+html {
+    font-family: "Google Sans", sans-serif;
+  }
+
+  .input-field {
+  @apply border border-gray-300 rounded px-3 py-2 outline-none mt-5 w-full focus:border-orange-500;
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+@import "tailwindcss";
+
+
+@theme {
+  --font-google: "Google Sans", sans-serif;
+  --animate-fade-in: fadeIn 1s ease-in-out;
+}
+
+
+html {
+    font-family: "Google Sans", sans-serif;
+  }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
